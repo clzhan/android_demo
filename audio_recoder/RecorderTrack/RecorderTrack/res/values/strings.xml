@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_info">This is a sample application to record audio.\n\nTo start recording press \&quot;Record\&quot; button, to stop recording press \&quot;Stop\&quot; button.</string>
+    <string name="app_name">Audio Recorder</string>
+<string name="choose_format_title">Choose Audio Format</string>
+<string name="start_recording">Record</string>
+<string name="stop_recording">StopR</string>
+<string name="start_tracking">Track</string>
+<string name="stop_tracking">StopT</string>
+<string name="audio_format">Format</string>
+<string name="radio1_op1">双声道</string>
+  <string name="radio1_op2">单声道</string>
+  <string name="radio2_op1">4.4K Hz</string>
+  <string name="radio2_op2">22050 Hz</string>
+  <string name="radio2_op3">11025 Hz</string>
+    <string name="radio2_op4">16000 Hz</string>
+  <string name="radio3_op1">PCM/16BIT</string>
+  <string name="radio3_op2">PCM/8BIT</string>
+
+</resources>

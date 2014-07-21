@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_x="5px"
+        android:layout_y="20px"
+        android:text="Record"
+        android:layout_weight="1" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_x="110px"
+        android:layout_y="20px"
+        android:text="StopR" 
+          android:layout_weight="1" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnTrack"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_x="220px"
+        android:layout_y="20px"
+        android:text="Track"
+          android:layout_weight="1"  >
+    </Button>
+
+    <Button
+        android:id="@+id/btnStop2"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_x="330px"
+        android:layout_y="20px"
+        android:text="StopT" 
+          android:layout_weight="1" >
+    </Button>
+    </LinearLayout>
+
+    <!-- 建立一個RadioGroup -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+    <RadioGroup
+        android:id="@+id/myRadioGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:layout_x="5px"
+        android:layout_y="140px"
+        android:orientation="vertical" 
+          android:layout_weight="1">
+
+        <!-- 第一個RadioButton -->
+
+        <RadioButton
+            android:id="@+id/myRadio1Button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio1_op1" />
+        <!-- 第二個RadioButton -->
+
+        <RadioButton
+            android:id="@+id/myRadio1Button2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="@string/radio1_op2" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/myRadioGroup2"
+        android:layout_width="fill_parent"
+        android:layout_height="350px"
+        android:layout_x="170px"
+        android:layout_y="140px"
+        android:orientation="vertical"
+          android:layout_weight="1" >
+
+        <!-- 第一個RadioButton -->
+
+        <RadioButton
+            android:id="@+id/myRadio2Button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio2_op1" />
+        <!-- 第二個RadioButton -->
+
+        <RadioButton
+            android:id="@+id/myRadio2Button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio2_op2" />
+
+        <RadioButton
+            android:id="@+id/myRadio2Button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio2_op3" />
+
+        <RadioButton
+            android:id="@+id/myRadio2Button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radio2_op4" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/myRadioGroup3"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:layout_x="340px"
+        android:layout_y="140px"
+        android:orientation="vertical"
+          android:layout_weight="1" >
+
+        <!-- 第一個RadioButton -->
+
+        <RadioButton
+            android:id="@+id/myRadio3Button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radio3_op1" />
+        <!-- 第二個RadioButton -->
+
+        <RadioButton
+            android:id="@+id/myRadio3Button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio3_op2" />
+    </RadioGroup>
+</LinearLayout>
+</LinearLayout>

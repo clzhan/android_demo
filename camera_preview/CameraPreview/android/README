@@ -1,0 +1,7 @@
+This source is modified from: 
+ http://www.devdaily.com/java/jwarehouse/android-examples/platforms/android-2/samples/ApiDemos/src/com/example/android/apis/graphics/CameraPreview.java.shtml
+
+Modified to work with Android 2.2. and make exit more smooth.
+
+
+A Simple Camra Preview program -- only for 720x480 resolution.
